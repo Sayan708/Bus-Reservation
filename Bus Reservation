@@ -97,7 +97,7 @@ void a::allotmentOfSeatToPassenger()
 
     {
 
-    if (strcmp(bus[n].seat[seat/4][(seat%4)-1], "Empty")==0) // used to break the seat number in row-column basis, If empty then allocate passenger
+    if (strcmp(bus[n].seat[seat/4][(seat%4)-1], "Empty")==0) 
 
       {
 
@@ -130,7 +130,7 @@ void a::empty()
 
     {
 
-      strcpy(bus[p].seat[i][j], " Empty ");
+      strcpy(bus[p].seat[i][j], "Empty");
 
     }
 
