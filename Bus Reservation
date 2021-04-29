@@ -281,7 +281,7 @@ int main()
 	while(1){
   int choice;
   cout<<"\n\n\t\t\t\t==================================================="<<endl;
-  cout<<"\t\t\t\t\t\tBus Resevation System\n";
+  cout<<"\t\t\t\t\t\tBus Reservation System\n";
   cout<<"\t\t\t\t==================================================="<<endl;
   
   cout<<endl;
